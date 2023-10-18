@@ -24,28 +24,28 @@ export default function App() {
     <NavigationContainer>
       {authenticated ? (
         <Tab.Navigator>
-          <Tab.Screen name="All" component={All}
+          <Tab.Screen name="World News Headlines" component={All}
             options={{
               tabBarIcon: (props) => (
                 <Icon type="feather" name="home" color={props.color} />
               ),
             }}
           />
-          <Tab.Screen name="Business" component={Business}
+          <Tab.Screen name="Business News Headlines" component={Business}
             options={{
               tabBarIcon: (props) => (
                 <Icon type="feather" name="dollar-sign" color={props.color} />
               ),
             }}
           />
-          <Tab.Screen name="Health" component={HealthScreen}
+          <Tab.Screen name="Health News Headlines" component={HealthScreen}
             options={{
               tabBarIcon: (props) => (
                 <Icon type="feather" name="heart" color={props.color} />
               ),
             }}
           />
-          <Tab.Screen name="Sports" component={SportsScreen}
+          <Tab.Screen name="Sports News Headlines" component={SportsScreen}
             options={{
               tabBarIcon: (props) => (
                 <Icon type="ionicon" name="baseball-outline" color={props.color} />
@@ -61,7 +61,7 @@ export default function App() {
           />
         </Tab.Navigator>
       ) : (
-        // Providing  the login page when not authenticated
+        // Providing the login page when not authenticated
         <Login onLogin={handleLogin} />
       )}
     </NavigationContainer>
