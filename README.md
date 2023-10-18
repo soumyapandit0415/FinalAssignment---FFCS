@@ -19,9 +19,6 @@ The app's each page's screen shot is added at the end.
 
 **Process on how to run the app:**
 In cmd, migrate to News-Application folder created. 
-
 Using the command 'npx expo start', start the metro bundler. As I have Expo go installed in my android app, scan the QR from the app. 
-
 Once your homepage appears, enter the login credentials and login. Here I've used Admin and Password as Username and Password.
-
 At the bottom of the phone screen, we have 5 sections. Select any one of the section and view the news headlines.
