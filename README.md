@@ -16,8 +16,8 @@ _**Here's a brief description of each section:**_
 Each of these sections caters to a specific audience or interest group and provides news and information relevant to those topics. News applications often organize content in this way to help users find and explore articles and updates that align with their interests.
 
 The app's each page's screen shot is added at the end.
-_
-**Process on how to run the app:**_
+
+_**Process on how to run the app:**_
 
 In cmd, migrate to News-Application folder created. 
 
