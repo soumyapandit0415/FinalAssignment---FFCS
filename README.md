@@ -58,3 +58,7 @@ Tech News:
 
 
 As there aren't any tech news, the API keeps buffering until it gets the technology related news.
+
+Similar UI design used :
+https://dribbble.com/shots/22731538-News-App-UI-Design
+
